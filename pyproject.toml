@@ -1,0 +1,14 @@
+[project]
+name = "del-excel-al-millon"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "aws-cdk-lib==2.270.0",
+    "constructs==10.8.1",
+]
+
+[dependency-groups]
+dev = ["pytest", "boto3"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

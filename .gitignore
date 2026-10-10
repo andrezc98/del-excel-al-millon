@@ -1,0 +1,19 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# secrets / local
+.env
+.DS_Store
+
+# superpowers SDD scratch
+.superpowers/
+cdk.out/
+.DS_Store
+__pycache__/
+# slide working copies; the deck ships as slides/del-excel-al-millon.pdf plus slides/final and slides/nuevas sources
+slides/visuals/
+slides/visuals-sbg/
+slides/final/del-excel-al-millon.pdf
+slides/del-excel-al-millon-respaldo.pdf

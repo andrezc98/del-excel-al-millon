@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="'Public Sans', 'Helvetica Neue', Arial, sans-serif">
+<title>Condolivre: 80% de revisiones de crédito validadas con Textract</title>
+<defs>
+<linearGradient id="tv-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff9900"/></linearGradient><radialGradient id="tv-glow-a"><stop offset="0" stop-color="#ff57e9" stop-opacity=".16"/><stop offset=".45" stop-color="#ff9900" stop-opacity=".08"/><stop offset="1" stop-color="#ff9900" stop-opacity="0"/></radialGradient><radialGradient id="tv-glow-b"><stop offset="0" stop-color="#42b4ff" stop-opacity=".14"/><stop offset="1" stop-color="#42b4ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="tgrad" gradientUnits="userSpaceOnUse" x1="96" y1="0" x2="700" y2="0"><stop offset="0" stop-color="#ff9900"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#ffffff" flood-opacity="0"/></filter>
+<pattern id="sbg-grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0V60H0" fill="none" stroke="#3e434c" stroke-width="2"/></pattern></defs>
+<style>@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=block');
+.h{font-size:56px;font-weight:600;fill:#ffffff;font-family:'IBM Plex Mono',Menlo,ui-monospace,monospace;font-weight:500}
+.k{font:26px "IBM Plex Mono",Menlo,ui-monospace,monospace;fill:#ffffff}
+.sub{font-size:26px;fill:#b8bec8}
+.cap{font-size:32px;fill:#ffffff}
+.svc{font-size:30px;font-weight:600;fill:#ffffff}
+.src{font-size:24px;fill:#b8bec8}
+.card{fill:#1f2731;stroke:#3e434c;stroke-width:1.5;filter:url(#sh)}
+.step{opacity:0}
+@media (prefers-reduced-motion: no-preference){
+@keyframes s0{0%,4.88%{opacity:0}5.00%,5.86%{opacity:1}5.98%,100%{opacity:0}}
+#s0{animation:s0 8.0s linear infinite}
+@keyframes s1{0%,5.86%{opacity:0}5.98%,6.84%{opacity:1}6.96%,100%{opacity:0}}
+#s1{animation:s1 8.0s linear infinite}
+@keyframes s2{0%,6.84%{opacity:0}6.96%,7.82%{opacity:1}7.95%,100%{opacity:0}}
+#s2{animation:s2 8.0s linear infinite}
+@keyframes s3{0%,7.82%{opacity:0}7.95%,8.80%{opacity:1}8.93%,100%{opacity:0}}
+#s3{animation:s3 8.0s linear infinite}
+@keyframes s4{0%,8.80%{opacity:0}8.93%,9.79%{opacity:1}9.91%,100%{opacity:0}}
+#s4{animation:s4 8.0s linear infinite}
+@keyframes s5{0%,9.79%{opacity:0}9.91%,10.77%{opacity:1}10.89%,100%{opacity:0}}
+#s5{animation:s5 8.0s linear infinite}
+@keyframes s6{0%,10.77%{opacity:0}10.89%,11.75%{opacity:1}11.88%,100%{opacity:0}}
+#s6{animation:s6 8.0s linear infinite}
+@keyframes s7{0%,11.75%{opacity:0}11.88%,12.73%{opacity:1}12.86%,100%{opacity:0}}
+#s7{animation:s7 8.0s linear infinite}
+@keyframes s8{0%,12.73%{opacity:0}12.86%,13.71%{opacity:1}13.84%,100%{opacity:0}}
+#s8{animation:s8 8.0s linear infinite}
+@keyframes s9{0%,13.71%{opacity:0}13.84%,14.70%{opacity:1}14.82%,100%{opacity:0}}
+#s9{animation:s9 8.0s linear infinite}
+@keyframes s10{0%,14.70%{opacity:0}14.82%,15.68%{opacity:1}15.80%,100%{opacity:0}}
+#s10{animation:s10 8.0s linear infinite}
+@keyframes s11{0%,15.68%{opacity:0}15.80%,16.66%{opacity:1}16.79%,100%{opacity:0}}
+#s11{animation:s11 8.0s linear infinite}
+@keyframes s12{0%,16.66%{opacity:0}16.79%,17.64%{opacity:1}17.77%,100%{opacity:0}}
+#s12{animation:s12 8.0s linear infinite}
+@keyframes s13{0%,17.64%{opacity:0}17.77%,18.62%{opacity:1}18.75%,100%{opacity:0}}
+#s13{animation:s13 8.0s linear infinite}
+@keyframes s14{0%,18.62%{opacity:0}18.75%,19.61%{opacity:1}19.73%,100%{opacity:0}}
+#s14{animation:s14 8.0s linear infinite}
+@keyframes s15{0%,19.61%{opacity:0}19.73%,20.59%{opacity:1}20.71%,100%{opacity:0}}
+#s15{animation:s15 8.0s linear infinite}
+@keyframes s16{0%,20.59%{opacity:0}20.71%,21.57%{opacity:1}21.70%,100%{opacity:0}}
+#s16{animation:s16 8.0s linear infinite}
+@keyframes s17{0%,21.57%{opacity:0}21.70%,22.55%{opacity:1}22.68%,100%{opacity:0}}
+#s17{animation:s17 8.0s linear infinite}
+@keyframes s18{0%,22.55%{opacity:0}22.68%,23.54%{opacity:1}23.66%,100%{opacity:0}}
+#s18{animation:s18 8.0s linear infinite}
+@keyframes s19{0%,23.54%{opacity:0}23.66%,24.52%{opacity:1}24.64%,100%{opacity:0}}
+#s19{animation:s19 8.0s linear infinite}
+@keyframes s20{0%,24.52%{opacity:0}24.64%,25.50%{opacity:1}25.63%,100%{opacity:0}}
+#s20{animation:s20 8.0s linear infinite}
+@keyframes s21{0%,25.50%{opacity:0}25.63%,27.46%{opacity:1}27.59%,100%{opacity:0}}
+#s21{animation:s21 8.0s linear infinite}
+@keyframes s22{0%,27.46%{opacity:0}27.59%,91.25%{opacity:1}97.50%,100%{opacity:0}}
+#s22{animation:s22 8.0s linear infinite}
+@keyframes rise{0%,30.00%{opacity:0;transform:translateY(16px)}37.50%,91.25%{opacity:1;transform:none}97.50%,100%{opacity:0}}
+.rise{animation:rise 8.0s ease-out infinite}
+}
+</style>
+<rect width="1920" height="1080" fill="#161d26"/><rect width="1920" height="1080" fill="url(#sbg-grid)"/><g><rect x="1800" y="0" width="60" height="60" fill="#ff9900"/><rect x="1860" y="0" width="60" height="60" fill="#42b4ff"/><rect x="1860" y="60" width="60" height="60" fill="#ff57e9"/></g>
+
+
+<text x="96" y="74" class="k"><tspan fill="#ff9900">[</tspan>ETAPA 4 · CEREBRO<tspan fill="#ff9900">]</tspan></text>
+<text x="96" y="140" class="h">Condolivre, Brasil</text>
+<text x="96" y="192" class="sub">Crédito para condominios</text>
+<text id="s0" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">0%</text><text id="s1" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">8%</text><text id="s2" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">16%</text><text id="s3" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">23%</text><text id="s4" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">30%</text><text id="s5" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">36%</text><text id="s6" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">41%</text><text id="s7" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">46%</text><text id="s8" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">51%</text><text id="s9" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">55%</text><text id="s10" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">59%</text><text id="s11" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">62%</text><text id="s12" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">65%</text><text id="s13" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">68%</text><text id="s14" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">70%</text><text id="s15" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">72%</text><text id="s16" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">74%</text><text id="s17" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">75%</text><text id="s18" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">76%</text><text id="s19" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">77%</text><text id="s20" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">78%</text><text id="s21" class="step" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">79%</text><text id="s22" x="96" y="600" font-size="280" font-weight="700" fill="url(#tgrad)">80%</text>
+<g class="rise">
+<text x="96" y="690" class="cap">de las revisiones de crédito ya se valida automáticamente</text>
+<svg x="96" y="752" width="72" height="72" viewBox="0 0 80 80"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="url(#tv-grad)">
+            <rect x="0" y="0" width="80" height="80"></rect>
+        </g>
+        <path d="M22.0624102,50 C24.3763895,53.603 28.4103535,56 33.0003125,56 C40.1672485,56 45.9991964,50.168 45.9991964,43 C45.9991964,35.832 40.1672485,30 33.0003125,30 C27.6033607,30 22.9664021,33.307 21.0024196,38 L23.2143999,38 C25.0393836,34.444 28.7363506,32 33.0003125,32 C39.0652583,32 43.9992143,36.935 43.9992143,43 C43.9992143,49.065 39.0652583,54 33.0003125,54 C29.5913429,54 26.5413702,52.441 24.5213882,50 L22.0624102,50 Z M37.0002768,45 L37.0002768,43 L41.9992321,43 C41.9992321,38.038 37.9622682,34 33.0003125,34 C28.0373568,34 23.9993929,38.038 23.9993929,43 L28.9993482,43 L28.9993482,45 L24.2313908,45 C25.1443826,49.002 28.7253507,52 33.0003125,52 C35.1362934,52 37.0992759,51.249 38.6442621,50 L34.0003036,50 L34.0003036,48 L40.4782457,48 C41.0812403,47.102 41.5202364,46.087 41.7682342,45 L37.0002768,45 Z M21.0024196,48 L23.2143999,48 C22.4434068,46.498 22.0004107,44.801 22.0004107,43 C22.0004107,41.959 22.1554093,40.955 22.4264069,40 L20.3634253,40 C20.1344274,40.965 19.9994286,41.966 19.9994286,43 C19.9994286,44.771 20.3584254,46.46 21.0024196,48 L21.0024196,48 Z M19.7434309,50 L17.0004554,50 L17.0004554,48 L18.8744386,48 C18.5344417,47.04 18.2894438,46.038 18.1494451,45 L15.4144695,45 L16.707458,46.293 L15.2924706,47.707 L12.2924974,44.707 C11.9025009,44.316 11.9025009,43.684 12.2924974,43.293 L15.2924706,40.293 L16.707458,41.707 L15.4144695,43 L18.0004464,43 C18.0004464,41.973 18.1044455,40.97 18.3024437,40 L17.0004554,40 L17.0004554,38 L18.8744386,38 C20.9404202,32.184 26.4833707,28 33.0003125,28 C37.427273,28 41.4002375,29.939 44.148213,33 L59.0000804,33 L59.0000804,35 L45.6661994,35 C47.1351863,37.318 47.9991786,40.058 47.9991786,43 L59.0000804,43 L59.0000804,45 L47.8501799,45 C46.8681887,52.327 40.5912447,58 33.0003125,58 C27.2563638,58 22.2624084,54.752 19.7434309,50 L19.7434309,50 Z M37.0002768,39 C37.0002768,38.448 36.5522808,38 36.0002857,38 L29.9993482,38 C29.4473442,38 28.9993482,38.448 28.9993482,39 L28.9993482,41 L31.0003304,41 L31.0003304,40 L32.0003214,40 L32.0003214,43 L31.0003304,43 L31.0003304,45 L35.0002946,45 L35.0002946,43 L34.0003036,43 L34.0003036,40 L35.0002946,40 L35.0002946,41 L37.0002768,41 L37.0002768,39 Z M49.0001696,40 L59.0000804,40 L59.0000804,38 L49.0001696,38 L49.0001696,40 Z M49.0001696,50 L59.0000804,50 L59.0000804,48 L49.0001696,48 L49.0001696,50 Z M57.0000982,27 L60.5850662,27 L57.0000982,23.414 L57.0000982,27 Z M63.7070383,27.293 C63.8940367,27.48 64.0000357,27.735 64.0000357,28 L64.0000357,63 C64.0000357,63.552 63.5520397,64 63.0000446,64 L32.0003304,64 C31.4473264,64 31.0003304,63.552 31.0003304,63 L31.0003304,59 L33.0003125,59 L33.0003125,62 L62.0000536,62 L62.0000536,29 L56.0001071,29 C55.4471121,29 55.0001161,28.552 55.0001161,28 L55.0001161,22 L33.0003125,22 L33.0003125,27 L31.0003304,27 L31.0003304,21 C31.0003304,20.448 31.4473264,20 32.0003304,20 L56.0001071,20 C56.2651048,20 56.5191025,20.105 56.7071008,20.293 L63.7070383,27.293 Z M68,24.166 L68,61 C68,61.552 67.552004,62 67.0000089,62 L65.0000268,62 L65.0000268,60 L66.0000179,60 L66.0000179,24.612 L58.6170838,18 L36.0002857,18 L36.0002857,19 L34.0003036,19 L34.0003036,17 C34.0003036,16.448 34.4472996,16 35.0003036,16 L59.0000804,16 C59.2460782,16 59.483076,16.091 59.6660744,16.255 L67.666003,23.42 C67.8780011,23.61 68,23.881 68,24.166 L68,24.166 Z" fill="#161d26"></path>
+    </g></svg>
+
+<text x="192" y="800" class="svc">Amazon Textract</text>
+</g>
+<text x="96" y="980" class="src">Fuente: Condolivre en el blog de AWS Brasil, 2024</text>
+</svg>

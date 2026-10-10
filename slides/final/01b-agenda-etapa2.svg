@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="'Public Sans', 'Helvetica Neue', Arial, sans-serif">
+<title>Agenda, etapa 2: Primeros clientes</title>
+<defs>
+<linearGradient id="tv-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff9900"/></linearGradient>
+<linearGradient id="hgrad" gradientUnits="userSpaceOnUse" x1="1224" y1="0" x2="1800" y2="0"><stop offset="0" stop-color="#ff9900"/></linearGradient>
+<radialGradient id="tv-glow-a"><stop offset="0" stop-color="#ff57e9" stop-opacity=".16"/><stop offset=".45" stop-color="#ff9900" stop-opacity=".08"/><stop offset="1" stop-color="#ff9900" stop-opacity="0"/></radialGradient>
+<radialGradient id="tv-glow-b"><stop offset="0" stop-color="#42b4ff" stop-opacity=".14"/><stop offset="1" stop-color="#42b4ff" stop-opacity="0"/></radialGradient>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#ffffff" flood-opacity="0"/></filter>
+<pattern id="sbg-grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0V60H0" fill="none" stroke="#3e434c" stroke-width="2"/></pattern></defs>
+<style>@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=block');
+.h{font-size:60px;font-weight:600;fill:#ffffff;font-family:'IBM Plex Mono',Menlo,ui-monospace,monospace;font-weight:500}
+.k{font:26px "IBM Plex Mono",Menlo,ui-monospace,monospace;fill:#ffffff}
+.scene{font-size:48px;font-weight:600;fill:#ffffff}
+.lbl{font-size:24px;fill:#b8bec8}
+.t{font-size:30px;font-weight:600;fill:#ffffff}
+.t.idle,.t.done{fill:#b8bec8}
+.s{font-size:24px;fill:#b8bec8}
+.num{font-size:26px;font-weight:700;fill:#b8bec8}
+.cur{fill:#1f2731;stroke:url(#hgrad);stroke-width:3;filter:drop-shadow(0 0 18px rgb(255 153 0 / .35))}
+.chk{fill:none;stroke:#fff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:40 50}
+@media (prefers-reduced-motion: no-preference){
+@keyframes draw{0%,8%{stroke-dashoffset:45}22%,100%{stroke-dashoffset:0}}
+@keyframes fillin{0%,5%{opacity:0}12%,100%{opacity:1}}
+@keyframes pulse{0%,25%{opacity:0;transform:scale(.97)}38%{opacity:1;transform:scale(1.015)}50%,100%{opacity:1;transform:scale(1)}}
+@keyframes halo{0%,30%{opacity:0}40%{opacity:.9}60%,100%{opacity:0}}
+.new .chk{animation:draw 6s linear both}
+.new .disc{animation:fillin 6s linear both}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 6s ease-out both}
+.halo{animation:halo 6s ease-out both}
+}
+</style>
+<rect width="1920" height="1080" fill="#161d26"/><rect width="1920" height="1080" fill="url(#sbg-grid)"/><g><rect x="1800" y="0" width="60" height="60" fill="#ff9900"/><rect x="1860" y="0" width="60" height="60" fill="#42b4ff"/><rect x="1860" y="60" width="60" height="60" fill="#ff57e9"/></g>
+
+
+<text class="k" x="96" y="72"><tspan fill="#ff9900">[</tspan>ETAPA 2 DE 5<tspan fill="#ff9900">]</tspan></text>
+<text class="h" x="96" y="142">Primeros clientes</text>
+<rect x="96" y="330" width="8" height="118" rx="4" fill="url(#tv-grad)"/>
+<text class="scene" x="136" y="378">El Excel ya no aguanta y alguien</text>
+<text class="scene" x="136" y="442">instala PostgreSQL a mano en EC2.</text>
+<svg x="96" y="660" width="88" height="88" viewBox="0 0 80 80"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="url(#tv-grad)">
+            <rect x="0" y="0" width="80" height="80"></rect>
+        </g>
+        <path d="M15.414,14 L24.707,23.293 L23.293,24.707 L14,15.414 L14,23 L12,23 L12,13 C12,12.448 12.447,12 13,12 L23,12 L23,14 L15.414,14 Z M68,13 L68,23 L66,23 L66,15.414 L56.707,24.707 L55.293,23.293 L64.586,14 L57,14 L57,12 L67,12 C67.553,12 68,12.448 68,13 L68,13 Z M66,57 L68,57 L68,67 C68,67.552 67.553,68 67,68 L57,68 L57,66 L64.586,66 L55.293,56.707 L56.707,55.293 L66,64.586 L66,57 Z M65.5,39.213 C65.5,35.894 61.668,32.615 55.25,30.442 L55.891,28.548 C63.268,31.045 67.5,34.932 67.5,39.213 C67.5,43.495 63.268,47.383 55.89,49.879 L55.249,47.984 C61.668,45.812 65.5,42.534 65.5,39.213 L65.5,39.213 Z M14.556,39.213 C14.556,42.393 18.143,45.585 24.152,47.753 L23.473,49.634 C16.535,47.131 12.556,43.333 12.556,39.213 C12.556,35.094 16.535,31.296 23.473,28.792 L24.152,30.673 C18.143,32.842 14.556,36.034 14.556,39.213 L14.556,39.213 Z M24.707,56.707 L15.414,66 L23,66 L23,68 L13,68 C12.447,68 12,67.552 12,67 L12,57 L14,57 L14,64.586 L23.293,55.293 L24.707,56.707 Z M40,31.286 C32.854,31.286 29,29.44 29,28.686 C29,27.931 32.854,26.086 40,26.086 C47.145,26.086 51,27.931 51,28.686 C51,29.44 47.145,31.286 40,31.286 L40,31.286 Z M40.029,39.031 C33.187,39.031 29,37.162 29,36.145 L29,31.284 C31.463,32.643 35.832,33.286 40,33.286 C44.168,33.286 48.537,32.643 51,31.284 L51,36.145 C51,37.163 46.835,39.031 40.029,39.031 L40.029,39.031 Z M40.029,46.667 C33.187,46.667 29,44.798 29,43.781 L29,38.862 C31.431,40.291 35.742,41.031 40.029,41.031 C44.292,41.031 48.578,40.292 51,38.867 L51,43.781 C51,44.799 46.835,46.667 40.029,46.667 L40.029,46.667 Z M40,53.518 C32.883,53.518 29,51.605 29,50.622 L29,46.498 C31.431,47.927 35.742,48.667 40.029,48.667 C44.292,48.667 48.578,47.929 51,46.503 L51,50.622 C51,51.605 47.117,53.518 40,53.518 L40,53.518 Z M40,24.086 C33.739,24.086 27,25.525 27,28.686 L27,50.622 C27,53.836 33.54,55.518 40,55.518 C46.46,55.518 53,53.836 53,50.622 L53,28.686 C53,25.525 46.261,24.086 40,24.086 L40,24.086 Z" fill="#161d26"></path>
+    </g></svg>
+<text class="lbl" x="96" y="796">Amazon RDS</text>
+<svg x="361" y="660" width="88" height="88" viewBox="0 0 80 80"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="url(#tv-grad)">
+            <rect x="0" y="0" width="80" height="80"></rect>
+        </g>
+        <path d="M45.0911055,18.0451258 L42.0830668,18.0451258 L42.0830668,16.0270755 L45.0911055,16.0270755 L45.0911055,13 L47.0964647,13 L47.0964647,16.0270755 L50.1045034,16.0270755 L50.1045034,18.0451258 L47.0964647,18.0451258 L47.0964647,21.0722014 L45.0911055,21.0722014 L45.0911055,18.0451258 Z M57.1232604,29.1444027 L54.1152217,29.1444027 L54.1152217,27.1263524 L57.1232604,27.1263524 L57.1232604,24.0992769 L59.1286196,24.0992769 L59.1286196,27.1263524 L62.1366583,27.1263524 L62.1366583,29.1444027 L59.1286196,29.1444027 L59.1286196,32.1714782 L57.1232604,32.1714782 L57.1232604,29.1444027 Z M51.9013052,61.0336342 C49.9861872,56.1681148 45.5663757,51.7203319 40.7294494,49.7920848 C45.5663757,47.8648467 49.9861872,43.4170637 51.9013052,38.5505353 C53.8164232,43.4170637 58.2362348,47.8648467 63.0721584,49.7920848 C58.2362348,51.7203319 53.8164232,56.1681148 51.9013052,61.0336342 L51.9013052,61.0336342 Z M67.9973204,48.7830596 C60.9444723,48.7830596 52.9039848,40.6916868 52.9039848,33.5942037 C52.9039848,33.0372218 52.455787,32.5851785 51.9013052,32.5851785 C51.3468234,32.5851785 50.8986256,33.0372218 50.8986256,33.5942037 C50.8986256,40.6916868 42.8571354,48.7830596 35.8042873,48.7830596 C35.2508082,48.7830596 34.8016077,49.2351029 34.8016077,49.7920848 C34.8016077,50.3500757 35.2508082,50.8011099 35.8042873,50.8011099 C42.8571354,50.8011099 50.8986256,58.8924828 50.8986256,65.9909748 C50.8986256,66.5479567 51.3468234,67 51.9013052,67 C52.455787,67 52.9039848,66.5479567 52.9039848,65.9909748 C52.9039848,58.8924828 60.9444723,50.8011099 67.9973204,50.8011099 C68.5507996,50.8011099 69,50.3500757 69,49.7920848 C69,49.2351029 68.5507996,48.7830596 67.9973204,48.7830596 L67.9973204,48.7830596 Z M13.0053591,28.9032457 C15.9251621,31.040361 21.5983231,32.1714782 27.0428732,32.1714782 C32.4874233,32.1714782 38.1605843,31.040361 41.0803872,28.9032457 L41.0803872,38.5676888 C39.635526,40.500981 34.3223269,42.4060205 27.2434091,42.4060205 C19.0946322,42.4060205 13.0053591,39.8430966 13.0053591,37.5516004 L13.0053591,28.9032457 Z M27.0428732,21.0722014 C35.7401158,21.0722014 41.0803872,23.7168563 41.0803872,25.6128146 C41.0803872,27.5087729 35.7401158,30.1534279 27.0428732,30.1534279 C18.3456306,30.1534279 13.0053591,27.5087729 13.0053591,25.6128146 C13.0053591,23.7168563 18.3456306,21.0722014 27.0428732,21.0722014 L27.0428732,21.0722014 Z M41.0803872,58.941925 C41.0803872,61.267728 35.0753393,63.8700039 27.0378598,63.8700039 C19.0063964,63.8700039 13.0053591,61.267728 13.0053591,58.941925 L13.0053591,52.4942542 C15.9612585,54.7504344 21.7477224,55.9451202 27.3005618,55.9451202 C31.1618809,55.9451202 34.8958596,55.3962105 37.8106491,54.3992937 L37.1669289,52.4882 C34.4536779,53.4154941 30.9493128,53.9270699 27.3005618,53.9270699 C19.1186965,53.9270699 13.0053591,51.364146 13.0053591,49.0726498 L13.0053591,40.9792589 C15.9532371,43.2314031 21.7146339,44.4240709 27.2434091,44.4240709 C33.16724,44.4240709 38.2478174,43.1960872 41.0803872,41.2516957 L41.0803872,44.2797803 L43.0857464,44.2797803 L43.0857464,25.6128146 C43.0857464,21.3527104 34.8206587,19.054151 27.0428732,19.054151 C19.5819345,19.054151 11.6918489,21.1751219 11.0621661,25.108302 L11,25.108302 L11,58.941925 C11,63.4532765 19.2630824,65.8880543 27.0378598,65.8880543 C34.8176506,65.8880543 43.0857464,63.4532765 43.0857464,58.941925 L43.0857464,55.3790571 L41.0803872,55.3790571 L41.0803872,58.941925 Z" fill="#161d26"></path>
+    </g></svg>
+<text class="lbl" x="361" y="796">Amazon Aurora</text>
+<rect x="1200" y="96" width="624" height="888" rx="24" fill="#1f2731" stroke="#3e434c" stroke-width="1.5"/>
+<text class="k" x="1240" y="156"><tspan fill="#ff9900">[</tspan>EL RECORRIDO<tspan fill="#ff9900">]</tspan></text>
+<circle cx="1264" cy="250.0" r="26" fill="url(#tv-grad)"/><text class="num" x="1264" y="259.0" text-anchor="middle" style="fill:#fff">1</text>
+<g class="new"><circle class="disc" cx="1264" cy="250.0" r="26" fill="#ff9900"/><path class="chk" transform="translate(1264 250.0)" d="M-11 1 L-3 9 L12 -8"/></g>
+<text class="t done" x="1316" y="244.0">El MVP</text>
+<text class="s" x="1316" y="278.0">S3, EBS, EFS, Glacier</text>
+<circle cx="1264" cy="374.0" r="25" fill="#1f2731" stroke="#3e434c" stroke-width="2"/><text class="num" x="1264" y="383.0" text-anchor="middle">2</text>
+<rect class="halo" x="1220" y="314" width="584" height="120" rx="24" fill="none" stroke="#ff9900" stroke-opacity=".35" stroke-width="10" opacity="0"/>
+<g class="pulse"><rect class="cur" x="1224" y="320" width="576" height="108" rx="20"/><circle cx="1264" cy="374.0" r="26" fill="url(#tv-grad)"/><text class="num" x="1264" y="383.0" text-anchor="middle" style="fill:#fff">2</text></g>
+<text class="t" x="1316" y="368.0">Primeros clientes</text>
+<text class="s" x="1316" y="402.0">RDS, Aurora</text>
+<circle cx="1264" cy="498.0" r="25" fill="#1f2731" stroke="#3e434c" stroke-width="2"/>
+<text class="num" x="1264" y="507.0" text-anchor="middle">3</text>
+<text class="t idle" x="1316" y="492.0">Pico viral</text>
+<text class="s" x="1316" y="526.0">DynamoDB, ElastiCache</text>
+<circle cx="1264" cy="622.0" r="25" fill="#1f2731" stroke="#3e434c" stroke-width="2"/>
+<text class="num" x="1264" y="631.0" text-anchor="middle">4</text>
+<text class="t idle" x="1316" y="616.0">El cerebro</text>
+<text class="s" x="1316" y="650.0">Servicios de IA</text>
+<circle cx="1264" cy="746.0" r="25" fill="#1f2731" stroke="#3e434c" stroke-width="2"/>
+<text class="num" x="1264" y="755.0" text-anchor="middle">5</text>
+<text class="t idle" x="1316" y="740.0">Entender el negocio</text>
+<text class="s" x="1316" y="774.0">Kinesis, Glue, Athena, Redshift</text>
+<line x1="1240" y1="814" x2="1784" y2="814" stroke="#3e434c" stroke-width="1.5" stroke-dasharray="6 6"/>
+<circle cx="1264" cy="886.0" r="25" fill="#1f2731" stroke="#3e434c" stroke-width="2" stroke-dasharray="6 6"/>
+<text class="num" x="1264" y="895.0" text-anchor="middle">+</text>
+<text class="t idle" x="1316" y="880.0">Más allá del examen</text>
+<text class="s" x="1316" y="914.0">Amazon Bedrock</text>
+</svg>

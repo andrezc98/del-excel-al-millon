@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="'Public Sans', 'Helvetica Neue', Arial, sans-serif">
+<title>Banlek: 180 millones de fotos por mes; Rekognition encuentra a cada cliente</title>
+<defs>
+<linearGradient id="tv-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff9900"/></linearGradient><radialGradient id="tv-glow-a"><stop offset="0" stop-color="#ff57e9" stop-opacity=".16"/><stop offset=".45" stop-color="#ff9900" stop-opacity=".08"/><stop offset="1" stop-color="#ff9900" stop-opacity="0"/></radialGradient><radialGradient id="tv-glow-b"><stop offset="0" stop-color="#42b4ff" stop-opacity=".14"/><stop offset="1" stop-color="#42b4ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="tgrad" gradientUnits="userSpaceOnUse" x1="96" y1="0" x2="1500" y2="0"><stop offset="0" stop-color="#ff9900"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#ffffff" flood-opacity="0"/></filter>
+<pattern id="sbg-grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0V60H0" fill="none" stroke="#3e434c" stroke-width="2"/></pattern></defs>
+<style>@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=block');
+.h{font-size:56px;font-weight:600;fill:#ffffff;font-family:'IBM Plex Mono',Menlo,ui-monospace,monospace;font-weight:500}
+.k{font:26px "IBM Plex Mono",Menlo,ui-monospace,monospace;fill:#ffffff}
+.sub{font-size:26px;fill:#b8bec8}
+.cap{font-size:32px;fill:#ffffff}
+.svc{font-size:30px;font-weight:600;fill:#ffffff}
+.src{font-size:24px;fill:#b8bec8}
+.card{fill:#1f2731;stroke:#3e434c;stroke-width:1.5;filter:url(#sh)}
+.step{opacity:0}
+@media (prefers-reduced-motion: no-preference){
+@keyframes s0{0%,4.88%{opacity:0}5.00%,5.86%{opacity:1}5.98%,100%{opacity:0}}
+#s0{animation:s0 8.0s linear infinite}
+@keyframes s1{0%,5.86%{opacity:0}5.98%,6.84%{opacity:1}6.96%,100%{opacity:0}}
+#s1{animation:s1 8.0s linear infinite}
+@keyframes s2{0%,6.84%{opacity:0}6.96%,7.82%{opacity:1}7.95%,100%{opacity:0}}
+#s2{animation:s2 8.0s linear infinite}
+@keyframes s3{0%,7.82%{opacity:0}7.95%,8.80%{opacity:1}8.93%,100%{opacity:0}}
+#s3{animation:s3 8.0s linear infinite}
+@keyframes s4{0%,8.80%{opacity:0}8.93%,9.79%{opacity:1}9.91%,100%{opacity:0}}
+#s4{animation:s4 8.0s linear infinite}
+@keyframes s5{0%,9.79%{opacity:0}9.91%,10.77%{opacity:1}10.89%,100%{opacity:0}}
+#s5{animation:s5 8.0s linear infinite}
+@keyframes s6{0%,10.77%{opacity:0}10.89%,11.75%{opacity:1}11.88%,100%{opacity:0}}
+#s6{animation:s6 8.0s linear infinite}
+@keyframes s7{0%,11.75%{opacity:0}11.88%,12.73%{opacity:1}12.86%,100%{opacity:0}}
+#s7{animation:s7 8.0s linear infinite}
+@keyframes s8{0%,12.73%{opacity:0}12.86%,13.71%{opacity:1}13.84%,100%{opacity:0}}
+#s8{animation:s8 8.0s linear infinite}
+@keyframes s9{0%,13.71%{opacity:0}13.84%,14.70%{opacity:1}14.82%,100%{opacity:0}}
+#s9{animation:s9 8.0s linear infinite}
+@keyframes s10{0%,14.70%{opacity:0}14.82%,15.68%{opacity:1}15.80%,100%{opacity:0}}
+#s10{animation:s10 8.0s linear infinite}
+@keyframes s11{0%,15.68%{opacity:0}15.80%,16.66%{opacity:1}16.79%,100%{opacity:0}}
+#s11{animation:s11 8.0s linear infinite}
+@keyframes s12{0%,16.66%{opacity:0}16.79%,17.64%{opacity:1}17.77%,100%{opacity:0}}
+#s12{animation:s12 8.0s linear infinite}
+@keyframes s13{0%,17.64%{opacity:0}17.77%,18.62%{opacity:1}18.75%,100%{opacity:0}}
+#s13{animation:s13 8.0s linear infinite}
+@keyframes s14{0%,18.62%{opacity:0}18.75%,19.61%{opacity:1}19.73%,100%{opacity:0}}
+#s14{animation:s14 8.0s linear infinite}
+@keyframes s15{0%,19.61%{opacity:0}19.73%,20.59%{opacity:1}20.71%,100%{opacity:0}}
+#s15{animation:s15 8.0s linear infinite}
+@keyframes s16{0%,20.59%{opacity:0}20.71%,21.57%{opacity:1}21.70%,100%{opacity:0}}
+#s16{animation:s16 8.0s linear infinite}
+@keyframes s17{0%,21.57%{opacity:0}21.70%,22.55%{opacity:1}22.68%,100%{opacity:0}}
+#s17{animation:s17 8.0s linear infinite}
+@keyframes s18{0%,22.55%{opacity:0}22.68%,23.54%{opacity:1}23.66%,100%{opacity:0}}
+#s18{animation:s18 8.0s linear infinite}
+@keyframes s19{0%,23.54%{opacity:0}23.66%,24.52%{opacity:1}24.64%,100%{opacity:0}}
+#s19{animation:s19 8.0s linear infinite}
+@keyframes s20{0%,24.52%{opacity:0}24.64%,25.50%{opacity:1}25.63%,100%{opacity:0}}
+#s20{animation:s20 8.0s linear infinite}
+@keyframes s21{0%,25.50%{opacity:0}25.63%,26.48%{opacity:1}26.61%,100%{opacity:0}}
+#s21{animation:s21 8.0s linear infinite}
+@keyframes s22{0%,26.48%{opacity:0}26.61%,27.46%{opacity:1}27.59%,100%{opacity:0}}
+#s22{animation:s22 8.0s linear infinite}
+@keyframes s23{0%,27.46%{opacity:0}27.59%,29.43%{opacity:1}29.55%,100%{opacity:0}}
+#s23{animation:s23 8.0s linear infinite}
+@keyframes s24{0%,29.43%{opacity:0}29.55%,91.25%{opacity:1}97.50%,100%{opacity:0}}
+#s24{animation:s24 8.0s linear infinite}
+@keyframes rise{0%,30.00%{opacity:0;transform:translateY(16px)}37.50%,91.25%{opacity:1;transform:none}97.50%,100%{opacity:0}}
+.rise{animation:rise 8.0s ease-out infinite}
+}
+</style>
+<rect width="1920" height="1080" fill="#161d26"/><rect width="1920" height="1080" fill="url(#sbg-grid)"/><g><rect x="1800" y="0" width="60" height="60" fill="#ff9900"/><rect x="1860" y="0" width="60" height="60" fill="#42b4ff"/><rect x="1860" y="60" width="60" height="60" fill="#ff57e9"/></g>
+
+
+<text x="96" y="74" class="k"><tspan fill="#ff9900">[</tspan>ETAPA 4 · CEREBRO<tspan fill="#ff9900">]</tspan></text>
+<text x="96" y="140" class="h">Banlek, Brasil</text>
+<text x="96" y="192" class="sub">Cada cliente encuentra solo las fotos en las que aparece</text>
+<text id="s0" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">0 millones</text><text id="s1" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">19 millones</text><text id="s2" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">36 millones</text><text id="s3" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">52 millones</text><text id="s4" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">67 millones</text><text id="s5" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">80 millones</text><text id="s6" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">93 millones</text><text id="s7" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">104 millones</text><text id="s8" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">114 millones</text><text id="s9" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">124 millones</text><text id="s10" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">132 millones</text><text id="s11" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">140 millones</text><text id="s12" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">146 millones</text><text id="s13" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">152 millones</text><text id="s14" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">158 millones</text><text id="s15" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">162 millones</text><text id="s16" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">166 millones</text><text id="s17" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">169 millones</text><text id="s18" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">172 millones</text><text id="s19" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">174 millones</text><text id="s20" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">176 millones</text><text id="s21" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">177 millones</text><text id="s22" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">178 millones</text><text id="s23" class="step" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">179 millones</text><text id="s24" x="96" y="600" font-size="200" font-weight="700" fill="url(#tgrad)">180 millones</text>
+<g class="rise">
+<text x="96" y="690" class="cap">de fotos procesadas por mes en la plataforma</text>
+<svg x="96" y="752" width="72" height="72" viewBox="0 0 80 80"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="url(#tv-grad)">
+            <rect x="0" y="0" width="80" height="80"></rect>
+        </g>
+        <path d="M65.3266241,60.3224668 L51.9153129,47.2660207 C50.6025148,49.0401643 49.0315936,50.612586 47.2569971,51.9257952 L60.3446461,65.3231512 C60.9929788,65.9716869 61.7623067,66.0271604 62.2926691,65.9605922 C63.1053536,65.8567055 63.9482869,65.4038399 64.6682084,64.6847016 C65.3901466,63.9615288 65.8499284,63.1112712 65.9588241,62.2882461 C66.0304129,61.751666 65.9779816,60.9750369 65.3266241,60.3224668 L65.3266241,60.3224668 Z M34.1239749,54.2435791 C45.2111697,54.2435791 54.2303546,45.2205612 54.2303546,34.1309031 C54.2303546,23.0402363 45.2111697,14.0172184 34.1239749,14.0172184 C23.0367801,14.0172184 14.0165869,23.0402363 14.0165869,34.1309031 C14.0165869,45.2205612 23.0367801,54.2435791 34.1239749,54.2435791 L34.1239749,54.2435791 Z M67.9572617,62.5555275 C67.7888767,63.8142718 67.1274362,65.0770505 66.0939354,66.110875 C65.0594263,67.1446994 63.8010761,67.8023126 62.5477673,67.9616729 C62.3461086,67.9878967 62.1464665,68 61.9478327,68 C60.794345,68 59.732612,67.5642808 58.9108528,66.7412557 L45.5570144,53.0705666 C42.2175465,55.0938367 38.3043596,56.2607975 34.1239749,56.2607975 C21.9246324,56.2607975 12,46.3330572 12,34.1309031 C12,21.9277404 21.9246324,12 34.1239749,12 C46.3223091,12 56.2469415,21.9277404 56.2469415,34.1309031 C56.2469415,38.3115882 55.0813543,42.2249919 53.0587176,45.564497 L66.7422681,58.8862073 C67.7162796,59.8595151 68.143796,61.1596124 67.9572617,62.5555275 L67.9572617,62.5555275 Z M48.2400832,34.1309031 C48.2400832,26.2123122 42.0390785,20.0103743 34.1239749,20.0103743 C26.207863,20.0103743 20.0078666,26.2123122 20.0078666,34.1309031 C20.0078666,42.0484853 26.207863,48.2514319 34.1239749,48.2514319 C42.0390785,48.2514319 48.2400832,42.0484853 48.2400832,34.1309031 L48.2400832,34.1309031 Z M50.2566701,34.1309031 C50.2566701,43.1801448 43.1693755,50.2686503 34.1239749,50.2686503 C25.0775661,50.2686503 17.9912797,43.1801448 17.9912797,34.1309031 C17.9912797,25.0816613 25.0775661,17.9931559 34.1239749,17.9931559 C43.1693755,17.9931559 50.2566701,25.0816613 50.2566701,34.1309031 L50.2566701,34.1309031 Z M27.9007877,36.9741724 L25.8842008,36.9741724 L25.8842008,42.0172184 L30.9256681,42.0172184 L30.9256681,40 L27.9007877,40 L27.9007877,36.9741724 Z M25.8842008,30.9225172 L27.9007877,30.9225172 L27.9007877,27.8966896 L30.9256681,27.8966896 L30.9256681,25.8794712 L25.8842008,25.8794712 L25.8842008,30.9225172 Z M36.9754288,27.8966896 L40.0003092,27.8966896 L40.0003092,30.9225172 L42.0168961,30.9225172 L42.0168961,25.8794712 L36.9754288,25.8794712 L36.9754288,27.8966896 Z M40.0003092,36.9741724 L42.0168961,36.9741724 L42.0168961,42.0172184 L36.9754288,42.0172184 L36.9754288,40 L40.0003092,40 L40.0003092,36.9741724 Z" fill="#161d26"></path>
+    </g></svg>
+
+<text x="192" y="800" class="svc">Amazon Rekognition encuentra a cada cliente en ellas</text>
+</g>
+<text x="96" y="980" class="src">Fuente: Banlek en el blog de AWS Brasil, 2026</text>
+</svg>

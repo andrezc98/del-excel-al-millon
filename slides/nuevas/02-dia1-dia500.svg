@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="'Public Sans', 'Helvetica Neue', Arial, sans-serif">
+<title>Día 1 contra día 500</title>
+<defs><pattern id="sbg-grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0V60H0" fill="none" stroke="#3e434c" stroke-width="2"/></pattern></defs>
+<style>@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=block');
+.h{font-size:60px;fill:#fff;font-family:'IBM Plex Mono',Menlo,ui-monospace,monospace;font-weight:500}
+.k{font:26px 'IBM Plex Mono',Menlo,ui-monospace,monospace;fill:#fff}
+.sub{font-size:30px;fill:#b8bec8}
+.big{font-size:40px;font-weight:600;fill:#fff}
+.t{font-size:32px;font-weight:600;fill:#fff}
+.c{font-size:26px;fill:#b8bec8}
+.m{font-family:'IBM Plex Mono',Menlo,ui-monospace,monospace;font-weight:500}
+.card{fill:#1f2731;stroke:#3e434c;stroke-width:1.5}
+</style>
+<rect width="1920" height="1080" fill="#161d26"/><rect width="1920" height="1080" fill="url(#sbg-grid)"/><g><rect x="1800" y="0" width="60" height="60" fill="#ff9900"/><rect x="1860" y="0" width="60" height="60" fill="#42b4ff"/><rect x="1860" y="60" width="60" height="60" fill="#ff57e9"/></g>
+<text class="k" x="96" y="72"><tspan fill="#ff9900">[</tspan>EL VIAJE<tspan fill="#ff9900">]</tspan></text>
+<text class="h" x="96" y="142">Día 1 contra día 500</text>
+<rect class="card" x="96" y="220" width="804" height="500" rx="24"/>
+<text class="m" x="144" y="310" font-size="44" fill="#ff9900">Día 1</text>
+<rect x="144" y="360" width="60" height="60" fill="#ff9900"/>
+<text class="big" x="144" y="520">Una laptop y un Excel.</text>
+<text class="c" x="144" y="580">Tú, tu idea y una hoja de cálculo</text><text class="c" x="144" y="618">que ya pesa demasiado.</text>
+<path d="M920 470 H1000 M980 446 L1004 470 L980 494" fill="none" stroke="#ff9900" stroke-width="5" stroke-linecap="square"/>
+<rect class="card" x="1020" y="220" width="804" height="500" rx="24"/>
+<text class="m" x="1068" y="310" font-size="44" fill="#00e582">Día 500</text>
+<rect x="1068" y="360" width="60" height="60" fill="#ff9900"/>
+<rect x="1128" y="360" width="60" height="60" fill="#ad5cff"/>
+<rect x="1248" y="360" width="60" height="60" fill="#42b4ff"/>
+<rect x="1308" y="360" width="60" height="60" fill="#00e582"/>
+<rect x="1428" y="360" width="60" height="60" fill="#ad5cff"/>
+<rect x="1548" y="360" width="60" height="60" fill="#42b4ff"/>
+<rect x="1608" y="360" width="60" height="60" fill="#00e582"/>
+<rect x="1128" y="420" width="60" height="60" fill="#00e582"/>
+<rect x="1188" y="420" width="60" height="60" fill="#ff9900"/>
+<rect x="1248" y="420" width="60" height="60" fill="#ad5cff"/>
+<rect x="1368" y="420" width="60" height="60" fill="#42b4ff"/>
+<rect x="1428" y="420" width="60" height="60" fill="#00e582"/>
+<rect x="1488" y="420" width="60" height="60" fill="#ff9900"/>
+<rect x="1548" y="420" width="60" height="60" fill="#ad5cff"/>
+<text class="big" x="1068" y="580">Un millón de usuarios.</text>
+<text class="c" x="1068" y="640">Y el Excel ya no aguanta.</text>
+<rect x="96" y="780" width="1728" height="200" rx="16" fill="#2a2418" stroke="#ff9900" stroke-width="2" stroke-dasharray="10 8"/>
+<text class="k" x="136" y="836"><tspan fill="#ff9900">[</tspan>MAPA<tspan fill="#ff9900">]</tspan></text>
+<text class="t" x="136" y="896">Lo que en el curso llaman <tspan fill="#ff9900">Dominio 4</tspan>, en el examen CLF-C02 es el <tspan fill="#ff9900">Dominio 3</tspan> (Tecnología y servicios).</text>
+<text class="c" x="136" y="944">El Dominio 4 del examen es facturación, precios y soporte.</text>
+</svg>

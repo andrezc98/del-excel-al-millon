@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="'Public Sans', 'Helvetica Neue', Arial, sans-serif">
+<defs>
+<linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1"><stop offset=".35" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#ffffff" stop-opacity=".88"/></linearGradient>
+<linearGradient id="tv-grad" gradientUnits="userSpaceOnUse" x1="96" y1="0" x2="856" y2="0"><stop offset="0" stop-color="#ff9900"/></linearGradient>
+<pattern id="sbg-grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0V60H0" fill="none" stroke="#3e434c" stroke-width="2"/></pattern></defs>
+<style>@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=block');
+.k{font:28px 'IBM Plex Mono',Menlo,monospace;fill:#fff}
+.q{font-size:76px;font-weight:700;fill:#fff}
+.s{font-size:32px;fill:#1f2731}
+@media (prefers-reduced-motion: no-preference){
+ .photo{animation:kb 10s ease-in-out infinite alternate;transform-origin:50% 60%}
+ @keyframes kb{from{transform:scale(1)}to{transform:scale(1.06)}}
+ .ul{animation:ul 10s ease-out infinite}
+ @keyframes ul{0%,8%{stroke-dashoffset:760}22%,100%{stroke-dashoffset:0}}
+}</style>
+<rect width="1920" height="1080" fill="#ffffff"/>
+<image class="photo" href="fotos/trafico.jpg" width="1920" height="1080" preserveAspectRatio="xMidYMid slice"/>
+<rect width="1920" height="1080" fill="url(#scrim)"/>
+<text x="96" y="760" class="k"><tspan fill="#ad5cff">[</tspan>ETAPA 3 · PICO VIRAL<tspan fill="#ad5cff">]</tspan></text>
+<text x="96" y="860" class="q">9:00 p.m. Un influencer publica tu app.</text>
+<text x="96" y="930" class="s">¿Tu base de datos aguanta el tráfico de esa misma noche?</text>
+<path class="ul" d="M96 960 H856" stroke="url(#tv-grad)" stroke-width="6" stroke-linecap="round" stroke-dasharray="760" stroke-dashoffset="0"/>
+</svg>
